@@ -10,6 +10,8 @@ import (
 )
 
 func GetImage(c *fiber.Ctx) error {
+
+	// for analysing the created date of the file
 	// to access the image in database
 	// year := c.Params("year")
 	// month := c.Params("month")
